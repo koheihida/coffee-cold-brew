@@ -13,3 +13,25 @@
  *= require_tree .
  *= require_self
  */
+
+ body {
+  transition: all 1s;
+}
+
+.bodyfadeout {
+  opacity: 0;
+}
+
+button {
+  width: 40px;
+  height: 40px;
+  background-color: coral;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.anime3 {
+  transition: all 1s ease-in;
+  margin-left: 110vw;
+}
